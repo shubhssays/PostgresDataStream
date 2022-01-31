@@ -1,0 +1,26 @@
+{
+  "name": "postgresdatastream",
+  "version": "1.0.0",
+  "description": "This app shows how can we stream data from postgresql database in the form of json. We can use this wherever we want to retrieve large amount of data from database. This mechanism reduces load on database and RAM consumption.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhssays/PostgresDataStream.git"
+  },
+  "keywords": [
+    "postgresdatastream"
+  ],
+  "author": "Shubham Kumar Shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shubhssays/PostgresDataStream/issues"
+  },
+  "homepage": "https://github.com/shubhssays/PostgresDataStream#readme",
+  "dependencies": {
+    "pg": "^8.7.1",
+    "pg-query-stream": "^4.2.1"
+  }
+}
